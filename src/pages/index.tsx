@@ -16,10 +16,5 @@ const Button = styled('button', {
 })
 
 export default function Home() {
-  return (
-    <Button>
-      <span>Teste</span>
-      Enviar
-    </Button>
-  )
+  return <Button>Enviar</Button>
 }
